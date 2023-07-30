@@ -1,6 +1,6 @@
 import React from 'react';
 import './Card.css';
-import Image from './Image'; // Import the Image component
+//import Image from './Image'; // Import the Image component
 
 const Card = ({ size, topMsg, botMsg, children }) => {
   const getSizeClass = () => {

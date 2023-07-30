@@ -18,7 +18,6 @@ export const Default = () => {
     e.preventDefault();
     // Perform form submission logic here
     // Clear the form after submission
-    e.target.reset();
   };
 
   // Function to handle form validation

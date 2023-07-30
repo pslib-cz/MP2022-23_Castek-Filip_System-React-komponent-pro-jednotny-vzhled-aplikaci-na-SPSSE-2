@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 
 const Dropdown = ({ content, onSelect }) => {
   const dropdownStyle = {
-    backgroundColor: '#357BC2',
+    backgroundColor: 'orange',
     color: 'white',
     border: '1px solid black',
     padding: '8px',
@@ -15,7 +15,7 @@ const Dropdown = ({ content, onSelect }) => {
   };
 
   const selectedItemStyle = {
-    backgroundColor: 'red',
+    backgroundColor: '#357BC2',
   };
 
   return (
@@ -25,7 +25,7 @@ const Dropdown = ({ content, onSelect }) => {
       value={content}
     >
       <option value="" disabled>
-        Nevybrána žádná možnost
+        Nevybrána žádná možnost!
       </option>
       <option value="O1">Možnost 1</option>
       <option value="O2">Další možnost</option>
