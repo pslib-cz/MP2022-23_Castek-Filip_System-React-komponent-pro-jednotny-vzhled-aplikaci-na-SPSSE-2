@@ -1,0 +1,18 @@
+/* NavItem.css */
+.nav-item {
+    display: block;
+    text-align: center;
+    background-color: #003c77;
+    color: white;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: background-color 0.3s;
+    border: 1px solid black;
+  }
+  
+  .nav-item:hover {
+    background-color: #357bc2;
+    cursor: pointer;
+  }
+  

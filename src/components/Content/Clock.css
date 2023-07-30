@@ -1,0 +1,12 @@
+/* Clock.css */
+.clock-container {
+    display: inline-block;
+    background-color: none;
+    padding: 10px;
+  }
+  
+  .clock {
+    font-size: 24px;
+    color: #357bc2;
+  }
+  

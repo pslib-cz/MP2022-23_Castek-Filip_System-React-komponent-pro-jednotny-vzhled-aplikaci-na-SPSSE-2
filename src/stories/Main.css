@@ -1,0 +1,9 @@
+/* Main.css */
+
+.main-container {
+    width: 100%;
+    height: 100vh; /* Set initial height to viewport height */
+    min-height: 100%; /* Ensure the container takes at least the height of the viewport */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  

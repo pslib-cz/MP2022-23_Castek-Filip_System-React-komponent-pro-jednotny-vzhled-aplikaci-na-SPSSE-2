@@ -1,0 +1,17 @@
+/* Grid.css */
+.grid {
+    /* Set the container size to fill its parent */
+    width: 100%;
+    height: 100%;
+  
+    /* Set the display mode to grid */
+    display: grid;
+  
+    /* Customize the number of rows and columns */
+    /* grid-template-rows: repeat(2, 1fr); */
+    /* grid-template-columns: repeat(3, 1fr); */
+  
+    /* Set the gap between rows and columns */
+    /* grid-gap: 10px 20px; */
+  }
+  

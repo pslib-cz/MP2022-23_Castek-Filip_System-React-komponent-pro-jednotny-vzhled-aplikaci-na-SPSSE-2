@@ -1,0 +1,35 @@
+/* Image.css */
+
+.image-container {
+    position: relative;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border: 2px solid black;
+    background-color: lightgray;
+    overflow: hidden;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .strip {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 100%;
+    background-color: #357bc2;
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+    opacity: 0.3; /* Set initial opacity for the background */
+  }
+  
+  .strip > * {
+    opacity: 1; /* Make the text 100% opaque */
+  }
+  

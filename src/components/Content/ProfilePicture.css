@@ -1,0 +1,29 @@
+/* ProfilePicture.css */
+
+.profile-picture-container {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .profile-picture {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-width: 200px; /* Max width for 'big' size */
+    max-height: 200px; /* Max height for 'big' size */
+  }
+  
+  /* Additional styles for different sizes */
+  
+  .profile-picture-container.medium {
+    max-width: 100px; /* Max width for 'medium' size */
+    max-height: 100px; /* Max height for 'medium' size */
+  }
+  
+  .profile-picture-container.small {
+    max-width: 40px; /* Max width for 'small' size */
+    max-height: 40px; /* Max height for 'small' size */
+  }
+  

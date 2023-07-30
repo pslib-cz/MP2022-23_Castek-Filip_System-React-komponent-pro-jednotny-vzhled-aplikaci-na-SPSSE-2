@@ -1,0 +1,54 @@
+/* Navbar.css */
+
+/*      
+        padding pro Storybook vypnutý
+.sb-show-main.sb-main-padded{
+    padding: 0px;
+  }
+*/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003c77;
+    color: white;
+  }
+  
+  .vertical {
+    flex-direction: column;
+    width: fit-content;
+  }
+  
+  .horizontal {
+    width: fit-content;
+  }
+  
+  .navbar > * {
+    padding: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar > *:hover {
+    background-color: #357bc2;
+    cursor: pointer;
+  }
+  
+  .horizontal .nav-item {
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .vertical .nav-item {
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
